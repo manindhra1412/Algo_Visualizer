@@ -139,7 +139,6 @@
                 return newGrid;
             };
 
-        // ----------------------------------------------------------------
     return (
         <>
         <button className="visualize-button" onClick={handleVisualizeClick}>
@@ -186,8 +185,5 @@
         </>
     )
     }
-
-    // ----------------------------------------------------------------
-
 
     export default PathfindingComponent
