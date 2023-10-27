@@ -3,14 +3,18 @@ import Header from './Header/Header';
 import Loading from './LoadingComponent/Loading';
 import PathfindingComponent from './PathfindingComponent/PathfindingComponent';
 import { useState,useEffect } from 'react';
+import SortingVisualizer from './SortingVisualizer/SortingVisualizer';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Footer from './Footer/Footer';
+import Main from './Main/Main';
+import NotFound from './Main/NotFound';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
-    // Simulate loading with a timeout (you can replace this with your actual data loading logic)
     setTimeout(() => {
       setIsLoading(false);
-    }, 2000); // 2 seconds
+    }, 1000); // 2 seconds
   }, []);
   
   return (
@@ -18,10 +22,18 @@ function App() {
       {isLoading ? (
         <Loading />
       ) : (
-        <div>
-          <Header />
-          <PathfindingComponent />
-        </div>
+        <Router>
+          <div>
+            <Header />
+            <Routes>
+            <Route path="/" element={<Main/>} />
+              <Route path="/merge-sort" element={<SortingVisualizer/>} />
+              <Route path="/dijkstra" element={<PathfindingComponent/>} />
+              <Route element={<NotFound/>}/>
+            </Routes>
+            <Footer/>
+          </div>
+        </Router>
       )}
     </div>
   );

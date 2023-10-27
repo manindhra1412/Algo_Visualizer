@@ -1,0 +1,32 @@
+/* Footer.css */
+.footer {
+    position: relative;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #84b8db; /* Use the same background color as the header */
+    padding: 10px 20px;
+    color: white; /* Use the same text color as the header */
+  }
+  .footer-title{
+    font-family: 'Raleway';
+    font-size: larger;
+  }
+  .footer .left-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer .left-section .icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+  }
+  
+  .footer .header-title {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  

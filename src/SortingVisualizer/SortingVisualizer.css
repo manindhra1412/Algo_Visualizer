@@ -1,0 +1,32 @@
+.array-container {
+    left: 100px;
+  }
+  
+  .array-bar {
+    width: 5px;
+    display: inline-block;
+    background-color: black;
+    margin: 0 1px;
+    margin-bottom: 20px;
+  }
+
+  .gen-button {
+    background-color: #6ba6e1; /* Background color */
+    color: #ffffff; /* Text color */
+    font-size: 18px; /* Font size */
+    padding: 6px 12px; /* Padding */
+    border: none; /* Remove the border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth color transition on hover */
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    &:hover {
+      background-color: #91abd4; /* Darker background color on hover */
+    }
+  }
+
+  .buttons{
+    margin-bottom: 15px;
+  }
