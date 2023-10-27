@@ -1,0 +1,67 @@
+.grid {
+    margin: 40px 0 0;
+  }
+
+*{
+  background-color: rgb(223, 216, 216);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.visualize-button {
+  background-color: #0d0e0f; /* Background color */
+  color: #ffffff; /* Text color */
+  font-size: 18px; /* Font size */
+  padding: 10px 20px; /* Padding */
+  border: none; /* Remove the border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth color transition on hover */
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* Hover effect */
+  &:hover {
+    background-color: #5d6167; /* Darker background color on hover */
+  }
+}
+
+.reset-button {
+  background-color: rgb(216, 33, 33); /* Background color */
+  color: #ffffff; /* Text color */
+  font-size: 18px; /* Font size */
+  padding: 10px 20px; /* Padding */
+  border: none; /* Remove the border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth color transition on hover */
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* Hover effect */
+  &:hover {
+    background-color: #b03d3d; /* Darker background color on hover */
+  }
+}
+
+
+
+/* Media query for screens with a maximum width of 600px (typical for phones) */
+@media (max-width: 600px) {
+  .grid {
+    margin: 20px 0 0; /* Adjust margin for better spacing on small screens */
+  }
+
+  .container {
+    flex-direction: column; /* Stack elements vertically on small screens */
+  }
+
+  .visualize-button, .reset-button {
+    margin: 10px 0; /* Add vertical margin to separate buttons */
+  }
+}
