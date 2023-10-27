@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# Algo_Visualizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![![Project Logo]](src/Header/icon.svg)
 
-## Available Scripts
+Algo_visualizer is a web application that allows you to visualize various algorithms, such as sorting and pathfinding, to gain a better understanding of how they work and perform.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Demo](#demo)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Documentation](#documentation)
+- [Contributing](#contributing)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Demo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Go and Explore the application and see algorithms in action:
 
-### `npm test`
+https://algo-visualizer-taupe.vercel.app/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- Visualize Sorting Algorithms:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  - Merge Sort
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Visualize Pathfinding Algorithms:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  - Dijkstra's Algorithm
 
-### `npm run eject`
+- User-Friendly Interface
+- Customizable Grids
+- Real-Time Visualization
+- and more...
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To get started with Algo_visualizer, follow these steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- 🛠 **Prerequisites:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  - Node.js and npm installed.
 
-## Learn More
+- 🚀 **Installation:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  1. Clone the repository:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+     ```bash
+     git clone https://github.com/manindhra1412/Algo_Visualizer.git
+     ```
 
-### Code Splitting
+  2. Change directory:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+     ```bash
+     cd Algo_Visualizer
+     ```
 
-### Analyzing the Bundle Size
+  3. Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+     ```bash
+     npm install
+     ```
 
-### Making a Progressive Web App
+  4. Start the application:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+     ```bash
+     npm start
+     ```
 
-### Advanced Configuration
+  5. Open your web browser and go to `http://localhost:3000` to use Algo_visualizer.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Usage
 
-### Deployment
+You can easily use Algo_visualizer to visualize sorting and pathfinding algorithms:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- ✨ **Example:**
+  1. Select an algorithm from the dropdown menu.
+  2. Customize the grid size and speed.
+  3. Click the "Visualize" button.
+  4. Watch the algorithm in action and learn how it works.
 
-### `npm run build` fails to minify
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I welcome contributions from the community. If you'd like to contribute to Algo_visualizer, follow these guidelines:
+
+- 🌟 **Contributions:** We welcome contributions, bug reports, and feature requests.
+- 📝 **Reporting Issues:** If you find a bug or want to request a feature, please open an issue.
+- 🙌 **Pull Requests:** We encourage pull requests.
