@@ -1,4 +1,12 @@
-/* AlgorithmList.css */
+hr {
+  display: block;
+  width: 100%; /* Set the width to fill the container, by default 100% */
+  border: none; /* Remove the default border */
+  border-top: 1px solid #000; /* Add your desired border styles */
+  margin: 20px 0; /* Adjust the margin as needed */
+}
+
+
 .algorithm-list {
     background-color: #f5f5f5;
     padding: 20px;

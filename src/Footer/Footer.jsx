@@ -11,7 +11,7 @@ function Footer() {
         <h1 className="footer-title">Quick Links</h1>
       </div>
       <div className="right-section">
-        <a href="https://github.com/manindhra1412" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/manindhra1412/Algo_Visualizer" target="_blank" rel="noopener noreferrer">
           GitHub
         </a>
         {/* <span> | </span>

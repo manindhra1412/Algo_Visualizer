@@ -38,17 +38,18 @@ function Main() {
           </li>
         ))}
       </ul>
+      <hr/>
 
       <h2> Contributing</h2>
       <p>
         We welcome contributions to our algorithms. If you have an algorithm you'd like to add or improve, please check out our
-        <a href="/contributing"> Contributing Guidelines</a>.
+        <a href="https://github.com/manindhra1412/Algo_Visualizer" target="_blank" rel="noreferrer"> Contributing Guidelines</a>.
       </p>
 
       <h2>GitHub Repository</h2>
       <p>
         You can find our algorithms on GitHub. Visit our
-        <a href="https://github.com/your-repo" target="_blank" rel="noopener noreferrer"> GitHub Repository</a> to learn more.
+        <a href="https://github.com/manindhra1412/Algo_Visualizer" target="_blank" rel="noopener noreferrer"> GitHub Repository</a> to learn more.
       </p>
     </div>
   );
